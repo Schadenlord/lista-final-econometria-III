@@ -1,0 +1,121 @@
+\documentclass[
+	article,
+	12pt,
+	oneside,
+	a4paper,
+	english,
+	brazil,
+	sumario=tradicional
+]{abntex2}
+
+% Pacotes fundamentais
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{lscape}
+\usepackage{pdflscape}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{float}
+\usepackage{microtype}
+\usepackage{multirow}
+\usepackage[normalem]{ulem}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage[alf,abnt-etal-cite=3,abnt-etal-list=0]{abntex2cite}
+\usepackage{hyperref}
+\usepackage{tabularx} % For tabularx environment
+\usepackage{booktabs} % For \toprule, \midrule, and \bottomrule
+\usepackage{caption} % For \captionsetup
+\usepackage{makecell}
+\usepackage{rotating}
+
+\newcommand{\theforeigntitle}[1]{\def\@theforeigntitle{#1}}
+
+% Configurações de aparência do PDF final
+\definecolor{blue}{RGB}{41,5,195}
+\hypersetup{
+	pdftitle={Lista Extra de Econometria III},
+	pdfauthor={Bruno Francisco Schaden},
+	pdfsubject={Modelo de artigo científico com abnTeX2},
+	pdfcreator={LaTeX with abnTeX2},
+	pdfkeywords={abnt}{latex}{abntex}{abntex2}{artigo científico},
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=blue,
+	filecolor=magenta,
+	urlcolor=blue,
+	bookmarksdepth=4
+}
+
+% Configurações de margens
+\setlrmarginsandblock{3cm}{2cm}{*}
+\setulmarginsandblock{3cm}{2cm}{*}
+\checkandfixthelayout
+
+% Espaçamentos entre linhas e parágrafos
+\setlength{\parindent}{1.5cm}
+\setlength{\parskip}{0.2cm}
+\OnehalfSpacing
+
+% Informações de dados para CAPA e FOLHA DE ROSTO
+\titulo{Lista Extra de Econometria III}
+\autor{Bruno Francisco Schaden}
+\local{Florianópolis}
+\data{2024}
+
+\begin{document}
+
+\frenchspacing
+
+% ELEMENTOS PRÉ-TEXTUAIS
+\maketitle
+\selectlanguage{english}
+
+% Resumo em inglês
+	\begin{resumoumacoluna}
+	\noindent
+	This list of Econometrics III exercises aims to replicate the results of the study by \cite{ENACHE2023102945} on the demand for in-app purchases in mobile applications. Using a difference-in-differences model to analyze exogenous price changes on the Apple platform, the paper, published in the International Journal of Industrial Organization, uses data from five word puzzle games across six European markets. The main objective is to estimate the price elasticity of demand for in-app purchases and understand how users responded to price changes. This list of exercises includes summarizing the main points and results of the article, explaining the identification hypotheses, detailing the difference-in-differences model, and reproducing the study's main figures and tables using Python.
+	
+	\textbf{Keywords:} In-app purchases. Mobile applications. Price elasticity of demand. Difference-in-differences. Exogenous price changes.
+	
+	\textbf{JEL Classification: }D12, L86, L13, L15, C23, L63
+	\end{resumoumacoluna}
+
+\newpage
+
+\selectlanguage{brazil}
+% Resumo em português
+\renewcommand{\resumoname}{Resumo}
+\begin{resumoumacoluna}
+\begin{otherlanguage*}{brazil}
+   \noindent 
+   Esta lista de exercícios de Econometria III tem o objetivo de replicar os achados do estudo de \cite{ENACHE2023102945} sobre a demanda por compras no aplicativo em aplicativos móveis. Utilizando um modelo de diferença-em-diferenças para analisar mudanças exógenas de preços na plataforma Apple, o artigo, publicado no International Journal of Industrial Organization, usa dados de cinco jogos de quebra-cabeça de palavras em seis mercados europeus. O objetivo principal é estimar a elasticidade-preço da demanda por compras no aplicativo e entender como os usuários respondem às mudanças de preço. Esta lista de exercícios inclui resumir os pontos principais e os resultados do artigo, explicar a hipótese de identificação, detalhar o modelo de diferença-em-diferenças e reproduzir as principais figuras e tabelas do estudo utilizando Python. 
+   
+   \textbf{Palavras-chave}: Compras dentro do aplicativo. Aplicações Móveis. Elasticidade-preço da demanda. Diferença em diferenças. Mudanças exógenas de preços.
+   
+   \textbf{Classificação JEL:  }D12, L86, L13, L15, C23, L63
+ \end{otherlanguage*}  
+\end{resumoumacoluna}
+
+\newpage
+
+
+% ELEMENTOS TEXTUAIS
+\textual
+
+\include{Textuais/Capitulo01}
+
+\postextual
+% ELEMENTOS PÓS-TEXTUAIS
+\renewcommand{\refname}{Referências}
+\bibliographystyle{abntex2-alf}
+\bibliography{Referencias}
+
+%\include{Textuais/Apendices}
+
+\end{document}

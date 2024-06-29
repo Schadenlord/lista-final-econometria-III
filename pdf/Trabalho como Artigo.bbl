@@ -1,0 +1,18 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Enache, Friberg e Wiklander 2023]{ENACHE2023102945}
+\abntrefinfo{Enache, Friberg e Wiklander}{ENACHE; FRIBERG; WIKLANDER}{2023}
+{ENACHE, A.; FRIBERG, R.; WIKLANDER, M. Demand for in-app purchases in mobile
+  apps—a difference-in-difference approach.
+\emph{International Journal of Industrial Organization}, v.~88, p. 102945,
+  2023.
+ISSN 0167-7187.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S0167718723000279}.}
+
+\end{thebibliography}
