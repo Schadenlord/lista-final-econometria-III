@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex Trabalho como Artigo"] 1719684166.46874 "Trabalho como Artigo.aux" "Trabalho como Artigo.bbl" "Trabalho como Artigo" 1719684169.49251 0
+["bibtex Trabalho como Artigo"] 1719684750.93459 "Trabalho como Artigo.aux" "Trabalho como Artigo.bbl" "Trabalho como Artigo" 1719684762.85358 0
   "./Referencias.bib" 1719681404 1175 ebdbe3863bc26339c52fbbed1df74118 ""
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/bibtex/bib/abntex2/abntex2-options.bib" 1543103229 5396 4eb260dac60f150ae608d45252853090 ""
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/bibtex/bst/abntex2/abntex2-alf.bst" 1543103230 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "Textuais/Capitulo01.aux" 1719684168 4476 1f3333c54d3d10d3ea32f9df92f7dc8b "pdflatex"
-  "Trabalho como Artigo.aux" 1719684168 3487 71ecdc51d925702ecfd861a754b04dac "pdflatex"
+  "Textuais/Capitulo01.aux" 1719684761 4476 1f3333c54d3d10d3ea32f9df92f7dc8b "pdflatex"
+  "Trabalho como Artigo.aux" 1719684761 3487 593591e8780aba13c624f81b305a4fc5 "pdflatex"
   (generated)
   "Trabalho como Artigo.bbl"
   "Trabalho como Artigo.blg"
   (rewritten before read)
-["pdflatex"] 1719684166.75362 "d:/User/Downloads/lista extra/pdf/Trabalho como Artigo.tex" "Trabalho como Artigo.pdf" "Trabalho como Artigo" 1719684169.49341 0
+["pdflatex"] 1719684760.15793 "d:/User/Downloads/lista extra/lista-final-econometria-III/pdf/Trabalho como Artigo.tex" "Trabalho como Artigo.pdf" "Trabalho como Artigo" 1719684762.85451 0
   "C:/Users/guian/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1719164962 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/guian/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1718994197 24225046 4766702c1b71c65648cdf629c74d24f3 ""
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -159,14 +159,14 @@
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
-  "Textuais/Capitulo01.aux" 1719684168 4476 1f3333c54d3d10d3ea32f9df92f7dc8b "pdflatex"
+  "Textuais/Capitulo01.aux" 1719684761 4476 1f3333c54d3d10d3ea32f9df92f7dc8b "pdflatex"
   "Textuais/Capitulo01.tex" 1719684164 10534 9a9c6e4873e2037d10dc9d2315dc35fe ""
   "Textuais/output fig7.png" 1719673701 199656 927b8aff79aae1fc7de2e4a62b91c183 ""
   "Textuais/output.png" 1719666468 187832 5b3e3d92b8ca94ab7ec62644664d224d ""
-  "Trabalho como Artigo.aux" 1719684168 3487 71ecdc51d925702ecfd861a754b04dac "pdflatex"
-  "Trabalho como Artigo.bbl" 1719684166 704 612ce73cbad81352bd0e8fd91b69dca4 "bibtex Trabalho como Artigo"
-  "Trabalho como Artigo.tex" 1719681546 4572 b7538402d373af8a540073cb71674a99 ""
-  "d:/User/Downloads/lista extra/pdf/Trabalho como Artigo.tex" 1719681546 4572 b7538402d373af8a540073cb71674a99 ""
+  "Trabalho como Artigo.aux" 1719684761 3487 593591e8780aba13c624f81b305a4fc5 "pdflatex"
+  "Trabalho como Artigo.bbl" 1719684751 704 612ce73cbad81352bd0e8fd91b69dca4 "bibtex Trabalho como Artigo"
+  "Trabalho como Artigo.tex" 1719684759 4768 f4cb006637e4b05eceea03499cb15e24 ""
+  "d:/User/Downloads/lista extra/lista-final-econometria-III/pdf/Trabalho como Artigo.tex" 1719684759 4768 f4cb006637e4b05eceea03499cb15e24 ""
   (generated)
   "Textuais/Capitulo01.aux"
   "Trabalho como Artigo.aux"
